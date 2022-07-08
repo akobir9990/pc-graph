@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz test</title>
+    <link rel="stylesheet" href="/css/quiz-style.css" />
+  </head>
+  <body>
+    <div class="quiz__over__modle">
+      <div class="over">
+        <h1>Test natijasi</h1>
+        <p>
+          Sizning javobinggiz:
+          <span id="number__of__all__question2"></span>/
+          <span id="correct__answer"></span>
+        </p>
+        <button id="btn__try__again">
+          <img src="../img/icons/try.png" alt="">
+        </button>
+      </div>
+
+    </div>
+    <div class="cloose__button">
+      <a href="/index.html">
+        <img src="/img/icons/close.png" alt="">
+      </a>
+    </div>
+    <div class="quiz__container">
+      <div class="question__number">
+        <h3>
+          Savol:
+          <span id="number__of__question"></span>/
+          <span id="number__of__all__question"></span>
+        </h3>
+      </div>
+      <div id="question"></div>
+      <div class="options">
+        <div data-id="0" class="option option1"></div>
+        <div data-id="1" class="option option2"></div>
+        <div data-id="2" class="option option3"></div>
+        <div data-id="3" class="option option4"></div>
+      </div>
+      <div class="button">
+        <button id="btn__next">Next</button>
+      </div>
+      <div id="answer__tracker">
+      </div>
+    </div>
+
+<script src="/js/quiz.js"></script>
+  </body>
+</html>
