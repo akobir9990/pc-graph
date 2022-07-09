@@ -446,6 +446,9 @@
   font-size: 25px;
   cursor: pointer;
 }
+.muallif__info .text {
+  margin: 0 20px;
+}
 .muallif__info .text p {
   cursor: pointer;
 }
